@@ -8,8 +8,8 @@ resource "ocitask_task" "ocitask1" {
     description = "Task1: Task Description"
     priority = 7
     completed = false
-    start_date = "2023-03-04"
-    due_date = "2023-03-05"
+    start_date = "2023-03-02"
+    due_date = "2023-03-03"
   }
 }
 
@@ -19,7 +19,7 @@ resource "ocitask_task" "ocitask2" {
     description = "Task2: Task Description"
     priority = 2
     completed = false
-    start_date = "2023-03-06"
-    due_date = "2023-03-07"
+    start_date = "2023-03-04"
+    due_date = "2023-03-05"
   }
 }
